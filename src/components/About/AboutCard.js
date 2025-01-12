@@ -8,33 +8,34 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Soumyajit Behera </span>
-            from <span className="purple"> Bhubaneswar, India.</span>
+            Yo, what's up! I'm <span className="purple">Rofikul Huda </span>
+            from <span className="purple"> East Java, Indonesia.</span>
             <br />
-            I am currently employed as a software developer at Juspay.
+            Right now, I'm leveling up my skills in <span className="purple"> Ethical Hacking </span>
+            and <span className="purple"> Web Development.</span>
             <br />
-            I have completed Integrated MSc (IMSc) in Maths and Computing at BIT
-            Mesra.
+            I'm deep into all that tech stuff and loving every bit of it. I'm a Computer and Network Engineering student, study hard at SMK PGRI 1 Ngawi. 
+            It's a hustle, but I'm all in, learning and growing every day. Can't wait to see where this journey takes me😁.
             <br />
             <br />
-            Apart from coding, some other activities that I love to do!
+            Apart from that, some other activities that I love to do!
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Playing Games
+              <ImPointRight /> 🎮 Gaming
             </li>
             <li className="about-activity">
-              <ImPointRight /> Writing Tech Blogs
+              <ImPointRight /> 🎧 Listening to Music
             </li>
             <li className="about-activity">
-              <ImPointRight /> Travelling
+              <ImPointRight /> 📱 Scrolling Threads
             </li>
           </ul>
 
           <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <span style={{ fontSize: "smaller" }}> <i>"I have no special talent. I am only passionately curious."</i> </span>{" "}
           </p>
-          <footer className="blockquote-footer">Soumyajit</footer>
+          <footer className="blockquote-footer">Albert Einstein</footer>
         </blockquote>
       </Card.Body>
     </Card>

@@ -2,12 +2,13 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
+import { SiTelegram } from "react-icons/si";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
+  //AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
-import { FaLinkedinIn } from "react-icons/fa";
+/*import { FaLinkedinIn } from "react-icons/fa"*/;
 
 function Home2() {
   return (
@@ -16,21 +17,21 @@ function Home2() {
         <Row>
           <Col md={8} className="home-about-description">
             <h1 style={{ fontSize: "2.6em" }}>
-              LET ME <span className="purple"> INTRODUCE </span> MYSELF
+              LEMME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
+            I totally got hooked on coding! Been diving deep and picking up bits and pieces, ya know?
+            Feels like I'm learning something new every day... I think! 🤷‍♂️
               <br />
-              <br />I am fluent in classics like
+              <br />I love digging into programming like
               <i>
-                <b className="purple"> C++, Javascript and Go. </b>
+                <b className="purple"> HTML, CSS, Javascript, and Python. </b>
               </i>
               <br />
               <br />
-              My field of Interest's are building new &nbsp;
+              My field of Interest's are gettin' the hang of &nbsp;
               <i>
-                <b className="purple">Web Technologies and Products </b> and
+                <b className="purple">Web Technologies, Ethical Hacking </b> and
                 also in areas related to{" "}
                 <b className="purple">
                   Blockchain.
@@ -38,7 +39,7 @@ function Home2() {
               </i>
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
+              Whenever possible, I also apply my passion for learnin' 
               with <b className="purple">Node.js</b> and
               <i>
                 <b className="purple">
@@ -60,14 +61,14 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>CATCH ME ON</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Don't be a <span className="purple">stranger, </span>hit me up here
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/rfypych"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,15 +78,15 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
+                  href="https://t.me/rfyycrnge"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
                 >
-                  <AiOutlineTwitter />
+                  <SiTelegram />
                 </a>
               </li>
-              <li className="social-icons">
+              {/*<li className="social-icons">
                 <a
                   href="https://www.linkedin.com/in/soumyajit4419/"
                   target="_blank"
@@ -94,10 +95,10 @@ function Home2() {
                 >
                   <FaLinkedinIn />
                 </a>
-              </li>
+              </li>*/}
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="https://www.instagram.com/rfikl_"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
